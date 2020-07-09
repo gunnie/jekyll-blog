@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Starting a blog"
+title:  "Starting a blog with Jekyll and Terraform"
 date:   2020-07-03 19:41:15 -0300
 categories: jekyll terraform
 author: Gunther Renneboog
@@ -21,7 +21,7 @@ docker run --rm --volume="$PWD:/srv/jekyll" \
 {% endhighlight %}
 Any changes I make are automatically picked up so I have immediate feedback in the browser at http://localhost:4000/.
 
-Once I'm ready to publish I can push my code to Github, and then use CI to deploy the site to AWS Cloudfront. That part is a little more complex. By using [TerraForm][terraform] I avoid a lot of manual configuration in the AWS console, and also benefit from all the other advantages this Infrastructure As Code (IAC) approach has to offer.
+Once I'm ready to publish I can push my code to Github, and then use CI to deploy the site to AWS Cloudfront. That part is a little more complex. By using [Terraform][terraform] I avoid a lot of manual configuration in the AWS console, and also benefit from all the other advantages this Infrastructure As Code (IAC) approach has to offer.
 
 This is the visual result in the AWS console:
 <img class="responsive" src="/assets/images/codepipeline_flow.png">
