@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Automating Capacitor iOS builds with Github Actions"
+title:  "Automating Capacitor iOS builds with GitHub Actions"
 date:   2021-02-13 11:52:22 -0300
 categories: github capacitor cordova ios ci
 author: Gunther Renneboog
@@ -15,7 +15,7 @@ Once you've decided to go with Capacitor, did the setup - see [instructions][cap
 
 Using [GitHub Actions][github-actions] you can automate the iOS workflow by defining the steps in yaml format. This allows you to run the entire test, build, and distribution process, in the cloud after (for example) a push request.
 
-This is what a succesful build looks like on Github:
+This is what a succesful build looks like on GitHub:
 <img class="responsive" alt="GitHub Actions " src="/assets/images/github_actions_build.png">
 <br/>
 
